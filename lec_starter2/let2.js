@@ -1,0 +1,1 @@
+//lec2 notes
