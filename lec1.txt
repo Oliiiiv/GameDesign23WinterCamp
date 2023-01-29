@@ -41,3 +41,14 @@ Operators:
     equality operators: ==, ===
         ===: strict equality
         ==: loose equality. Do the type cast. Try to avoid using it.
+
+Strings and Template Literals
+Strings:
+    Use + to concatinate the Strings
+    Numbers can be automatically converted to strings in some situations
+Template Literals:
+    Use `` to tell JavaScript that we are constructing a template string
+    And put variables inside ${}
+    You can use back quotes(``) for any strings
+
+If-else statement

@@ -54,7 +54,33 @@ let myNum2 = 6.54;
 // console.log(myNum === 5);
 // console.log(myNum !== myNum2);
 
-let myNum3 = "6.54";
-console.log(myNum2 == myNum3);
-console.log(myNum2 === myNum3);
-console.log(myNum2 === Number(myNum3));
+// let myNum3 = "6.54";
+// console.log(myNum2 == myNum3);
+// console.log(myNum2 === myNum3);
+// console.log(myNum2 === Number(myNum3));
+
+// const firstName = "Yawen";
+// const job = "instructor";
+// const birthYear = 2002;
+// const year = 2023;
+
+// const yawenString = `I am ` + firstName + `, a `  + (year - birthYear) + ` years old ` + job;
+// //template literals
+// const yawenString2 = `I am ${firstName}, a ${year - birthYear} years old ${job}!!`;
+// console.log(yawenString);
+// console.log(yawenString2);
+
+//if-else
+myNum = 1000;
+// myNum = 1;
+if (myNum > myNum2) {
+    // console.log("The first number is larger");
+    myNum -= 5;
+    console.log(myNum);
+} 
+// else {
+//     //myNum <= myNum2
+//     console.log("Hmm.. Maybe they are equal, maybe myNum is smaller than myNum2");
+// }
+
+
