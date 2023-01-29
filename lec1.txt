@@ -4,3 +4,51 @@ object oreiented: based on objects
 multi-paradigm: suppoting more than one kind of programming paragigm, offers multiple appraoches to solve a
 given problem.
 
+Value: a piece of data(string, num, etc)
+Variable: a container for a value
+
+Naming format for variables:
+    camel case: myVar, myName
+    first letter MUST be in lowercase
+    variable name CANNOT start with numbers: WRONG: 1var
+    only _ and $ are allowed in variable name except for numbers and chars 
+    avoid reserved keywords (eg. new, function, let, const)
+    try to make your name meaningful: myVar a aa aaa
+
+
+Data types:
+    Number: floating point numbers
+    String: squence of chars
+    Boolean: true or false
+    Undefined: value taken by a variable that is not yet defined (empty value)
+    Null: Also means 'empty value'
+    Symbol: values that is unique and cannot be changed
+    BigInt: larger int than the number type
+
+let, const, var
+    let: creating a variable
+    const: creating a const. If a variable is a const, the value of it cannot be 
+    changed.
+        const MUST have an initial value
+    var: an old way to assign variable. (try to avoid using it)
+
+Operators:
+    math operators: +,-,*,/
+    assgin operators: =, +=, -=, ++, --
+    comparison operators (return a boolean): >, <, >=, <=, ===, !==
+    opertor precedence: 5 + 4 * 3
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+    equality operators: ==, ===
+        ===: strict equality
+        ==: loose equality. Do the type cast. Try to avoid using it.
+
+Strings and Template Literals
+Strings:
+    Use + to concatinate the Strings
+    Numbers can be automatically converted to strings in some situations
+Template Literals:
+    Use `` to tell JavaScript that we are constructing a template string
+    And put variables inside ${}
+    You can use back quotes(``) for any strings
+
+If-else statement
