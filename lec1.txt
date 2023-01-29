@@ -1,0 +1,6 @@
+programming language: instruct computer to do something
+high-level: 
+object oreiented: based on objects
+multi-paradigm: suppoting more than one kind of programming paragigm, offers multiple appraoches to solve a
+given problem.
+

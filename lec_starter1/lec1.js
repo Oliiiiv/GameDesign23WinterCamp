@@ -1,0 +1,1 @@
+console.log("hello world from lec1.js");
