@@ -20,3 +20,36 @@ Test data:
 § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 GOOD LUCK :-)*/
+
+let scoreDolphins = (96+115+110)/3;
+let scoreKoalas = (120+91+110)/3;
+console.log(scoreDolphins);
+console.log(scoreKoalas);
+
+if(scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+    console.log("Dophins wins the trophy!!🏆");
+} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100) {
+    console.log("Both of the teams wins the trophy!!🏆");
+} else if (scoreDolphins < scoreKoalas && scoreKoalas >= 100){
+    //scoreDohp < scoreKoala
+    console.log("Koalas wins the trophy!!🏆");
+} else {
+    console.log("No one wins the trophy...😢");
+}
+
+
+// let arrDolphins = [96, 108, 89, 100];
+// let arrKoalas = [88, 91, 110, 67];
+
+// let sumDolphins = 0;
+// let sumKoalas = 0;
+
+// for(let i = 0; i < 3; i++) {
+//     // sumDolphins = sumDolphins + arrDolphins[i];
+//     sumDolphins += arrDolphins[i];
+//     // sumKoalas = sumKoalas + arrKoalas[i];
+//     sumKoalas += arrKoalas[i];
+// }
+
+// scoreDolphins = sumDolphins/3;
+// scoreKoalas = sumKoalas/3;

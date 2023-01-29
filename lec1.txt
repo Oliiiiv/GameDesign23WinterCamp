@@ -52,3 +52,40 @@ Template Literals:
     You can use back quotes(``) for any strings
 
 If-else statement
+
+Arrays:
+    store a series of data
+    index begins from 0. Its represents the position of the value
+    array.push(someVal): add a new value at the END of the array
+    array.unshift(someVla): add a new value at the BGINNING of the array
+    array.length: reutnr the length of the array
+    array.pop(): remove the last element from the array and return it
+    array.shift(): remove the first element from the array and return it
+    array.indexOf(someVal): return the index of the input parameter (someVal).
+        return -1 is does not exist.
+        if the lengeth of the array is n, the largest index will be n-1 because
+        it starts form 0
+    array.includes(someVal): return true if the input value exists in the given array.
+        Otherwise return false
+
+For loop:
+    syntax: for(initial state; stop condition; update) {iteration body}
+
+While loop:
+    the code will keep looping as long as the while loop condition remains true
+    syntax: while (stop condition) {loop body}
+
+Type conversion and coercion:
+    Type conversion
+    Type coercion: force a variable to convert form one type to the other
+
+Truthy and falsy values:
+    5 falsy values: 0, "", undefined, null, NaN
+    falsy value will be converted to false is they become a boolean
+
+Basic Boolean Logic: AND, OR, NOT
+    AND: && 
+    OR: ||
+    NOT: ! 
+
+Functions:
