@@ -1,0 +1,42 @@
+Function:
+    Compose: function name, input/parameter, function body, output/return value
+    function only works when it is called
+    by using functions, we can reuse code blocks so as to write more maintainable code
+    there are two ways to define a function:
+        function declaration
+            function declaration can be invoked/called before it's initialization/
+            declaration
+        function expression/anonymous function
+            notice that in js, fucntion is also a kind of value, therefore it can be 
+            stored in a variable. eg.calcAge in the lec2.js
+            function expression CANNOT be called before it's declaration.
+        arrow function: 
+            input => output
+            input => function body
+
+Nested function: function calling other function
+
+Objects:
+a data structure that constains multiple variables, each with name assigned.
+compare it with a cup: a cup can have a color, a design, a weight, a material, etc.
+    create an object
+
+Comparison between object and array
+    array is usually used when we want to store some ordered and unstructured data
+    object is usually be used when we want store structured data
+
+Methods/Object Methods
+    keyword: this
+    retrieve data that is inside the object itself by using this keyword.
+    In other words, this represents the object tha tis calling the Methods
+
+array and string are also (built-in) objects!
+string.length()
+
+Constrcutor of an object
+    -Instead of creating an object with information inside it, we are going
+    to create an object blueprint (structure/placeholders)
+    -In javascript, function is also a value! Therefore we can put functions
+    inside an object
+    -the function Person in line 128 is a constructor of a new object called
+    person.
