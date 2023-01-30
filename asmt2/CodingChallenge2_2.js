@@ -17,30 +17,42 @@ tall.
 GOOD LUCK :-)
  */
 
-const mark = {
-    fullName: "Mark Miller",
-    mass: 78,
-    height: 1.69,
-    calcBMI: function() {
+// const mark = {
+//     fullName: "Mark Miller",
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function() {
+//         this.bmi = this.mass/this.height**2;
+//         return this.bmi;
+//     }
+// }
+
+// const john = {
+//     fullName: "John Smithr",
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function() {
+//         this.bmi = this.mass/this.height**2;
+//         return this.bmi;
+//     }
+// }
+
+function Person(fullName, mass, height) {
+    this.fullName = fullName;
+    this.mass = mass;
+    this.height = height;
+    this.calcBMI = function() {
         this.bmi = this.mass/this.height**2;
         return this.bmi;
-    }
+    };
 }
 
-const john = {
-    fullName: "John Smithr",
-    mass: 92,
-    height: 1.95,
-    calcBMI: function() {
-        this.bmi = this.mass/this.height**2;
-        return this.bmi;
-    }
-}
+const mark = new Person("Mark Miller", 78, 1.69);
+const john = new Person("John Smith", 92, 1.95);
 
 mark.calcBMI();
 john.calcBMI();
 
-console.log(mark.bmi, john.bmi);
 // console.log(mark['bmi'], john['bmi']);
 //"John's BMI (28.3) is higher than Mark's (23.9)!"
 mark.mass = 55;
